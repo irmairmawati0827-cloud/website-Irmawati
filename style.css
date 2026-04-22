@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f5;
+}
+
+/* HEADER */
+header {
+    background: #ffc0cb;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(to right, #ffb6c1, #ffd1dc);
+}
+
+/* CONTAINER */
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+/* HERO CARD */
+.hero-card {
+    text-align: center;
+}
+
+/* FOTO PROFIL */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #ffc0cb;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff69b4;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background: #ffc0cb;
+    text-align: center;
+    padding: 15px;
+    color: white;
+} 
+
+/* LINK KONTAK */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* LINK KONTAK */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+} 
